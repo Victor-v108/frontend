@@ -1,0 +1,35 @@
+body {
+    background-color: papayawhip;
+}
+<!--
+header {
+    flexbox: inline;
+    display: inline-block;
+    width: auto;
+    margin: 3em;
+    float: left;
+    position: relative;
+    color: green;
+}
+
+section {
+    position: relative;
+    color: blue;
+}
+
+article {
+    display: inline-block;
+    width: 25%;
+    position: left;
+    float: 30em;
+}
+
+article {
+    border: 1px;
+    float: left;
+    width: 20%;
+    box-sizing: border-box;
+    padding: 1em;
+    column-count: 5;
+}
+

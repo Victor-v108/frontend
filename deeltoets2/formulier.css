@@ -1,0 +1,197 @@
+body {
+    padding: 4em;
+    background-color: papayawhip;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+body > header{
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    background-color: bisque;
+    width: auto;
+    margin: 0.5em;
+    padding: 1em;
+    border: 0.1em solid black;
+    border-radius: 0.5em;
+}
+
+body header li{
+    list-style: none;
+    background-color: white;
+    border-radius: 0.5em;
+    width: 15em;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+header img {
+    width: 70%;
+}
+
+main{
+    border: 0.1em solid black;
+    padding: 2em;
+    width: 70%;
+    background-color: bisque;
+}
+
+main h1{
+    background-color: white;
+    padding: 0.5em;
+}
+
+.related article {
+    background-color: lightgoldenrodyellow;
+    width: 25em;
+    padding: 1em;
+    margin: 0.5em;
+    border: 0.1em solid black;
+    border-radius: 1em;
+    box-shadow: 0.2em 0.2em 0.2em 0.2em grey;
+
+    position: ;
+    -webkit-align-items: center;
+    display: inline-block;
+    column-count: 5;
+    flex-direction: ;
+    justify-content: ;
+}
+
+footer{
+    background-color: bisque;
+    padding: 1em;
+    border-radius: 1em;
+    font-size: 0.5em;
+}
+
+/*Attribute selector*/
+input[type=text] {
+    width: 150px;
+    display: block;
+    margin-bottom: 10px;
+    background-color: floralwhite;
+}
+
+main textarea {
+    background-color: whitesmoke;
+    width: 20em;
+    height: 10em;
+    display: block;
+}
+
+aside{
+    position: absolute;
+    right: 0em;
+    top: 0em;
+    background-color: white;
+    border: 0.1em solid black;
+    padding: 1em;
+    margin: 1em;
+    width: 15em;
+}
+
+/* media Query
+@media (max-width: 320px) {
+    main > aside{
+    background-color: red;
+    }}
+
+@media (max-width: 320px) {
+    label > input:nth-child(1){
+    width: 10em;
+    height: 3em;
+    background-color: lightgoldenrodyellow;
+    }}
+
+@media (max-width: 320px) {
+    body{
+    padding: 0em;
+    border: 0em;
+    background-color: grey;
+    }}
+
+@media (max-width: 320px) {
+    main{
+    width: 20em;
+    padding: 1em;
+    border: 0em;
+    background-color: lightgray;
+    }}
+
+@media (max-width: 320px) {
+    .related article{
+    width: 21em;
+    padding: 1em;
+    border: 0em;
+    background-color: gainsboro;
+    }}
+
+@media (max-width: 320px) {
+    footer{
+        background-color: grey;
+    }}
+
+@media (max-width: 320px) {
+    section h4{
+        background-color: lightgoldenrodyellow;
+        padding: 0.2em;
+        width: 10em;
+    }}
+
+@media (max-width: 320px) {
+    body header {
+        background-color: whitesmoke;
+    }}
+*/
+
+
+/* media Query */
+@media (max-width: 1460px) {
+    aside{
+    display: none;
+    background-color: red;
+    }}
+
+@media (max-width: 20em) {
+    label > input:nth-child(1){
+    width: 10em;
+    height: 3em;
+    background-color: lightgoldenrodyellow;
+}
+    body{
+    padding: 0em;
+    border: 0em;
+    background-color: grey;
+}
+    main{
+    width: 20em;
+    padding: 1em;
+    border: 0em;
+    background-color: lightgray;
+}
+    .related article{
+    width: 21em;
+    padding: 1em;
+    border: 0em;
+    background-color: gainsboro;
+}
+    footer{
+        background-color: grey;
+}
+    section h4{
+        background-color: lightgoldenrodyellow;
+        padding: 0.2em;
+        width: 10em;
+}
+    body header {
+        background-color: whitesmoke;
+}
+}
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+body {
+    background-color: aqua;
+}
+
+header{
+    background-color: green;
+    display: flex;
+    margin: 3em;
+    padding: 1em;
+}
+
+li {
+    display: inline;
+    background-color: white;
+    margin: 1em;
+    padding: 0.3em;
+}
+
+header {
+    width: auto;
+    margin: 3em;
+    float: left;
+    position: relative;
+}
+
+section {
+    position: relative;
+}
+
+section article {
+    background-color: red;
+        width: 10em;
+    border: 1px solid black;
+    border-radius: 0 10px 0 0;
+    box-shadow:0 15px 15px -5px black;
+    transition: 2s;
+}
+
+article:hover {
+     background:white;
+}
+
+h1 {
+    text-shadow:0 0 .2em black;
+}
+
+h3 article:first-child {
+    color: blue;
+}
+
+#contact {
+    text-align: center;
+    color: red;
+}
